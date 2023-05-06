@@ -9,6 +9,7 @@ class Freshgrad {
   int years = 0;
   
 Freshgrad({required this.name, required this.age, required this.uni, required this.years});
+ // kalau nak buang required pon xpa sebab kita dh declare "this." tu adalah string atau int..
  
   void jobSeeking(){
     
